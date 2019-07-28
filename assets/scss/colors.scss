@@ -1,0 +1,31 @@
+$color-primary-teal: #37BBC0;
+$color-primary-lime: #00FFA7;
+$color-primary-dark-teal: #1d7571;
+$color-primary-info-text: #65a9a6;
+$color-white: white;
+
+
+$list-bar-color: $color-white;
+$list-item-alternate-col: #dffefc;
+
+$color-app-footer: rgba(156, 232, 219, 1);
+$color-app-footer-transparent: rgba(255, 255, 255, 0.5); 
+
+$color-modal-header: white;
+$color-modal-button-text: white;
+$color-modal-background: rgba(0,0,0,0.6);
+$color-blurred-modal-background: rgba(0,0,0,0.3);
+
+
+$color-warning-primary: #FF5252;
+$color-warning-secondary: #ff7f00;
+$color-warning-info-text: #FF8989;
+
+$color-image-overlay-background: rgba(0, 0, 0, 0.5);
+
+
+
+@mixin warning{
+  color: $color-warning-primary !important;
+  border: $deviation-border solid $color-warning-primary;
+}

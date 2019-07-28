@@ -1,0 +1,54 @@
+.pin-code {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+
+  &__result {
+
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+    margin: 1rem;
+    height: 7rem;
+    line-height: 7rem;
+    border-radius: $border-radius-primary;
+
+    color:$color-warning-primary;
+    background: $color-white;
+
+    @include shadow-primary;
+
+    &--number{
+      font-size: 4rem;
+    }
+
+  }
+
+  &__button
+  {
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    margin: 1rem;
+    height: 7rem;
+    line-height: 7rem;
+    border-radius: $border-radius-primary;
+    background-color: $list-bar-color;
+    color: $color-primary-dark-teal;
+    @include shadow-primary;
+
+    &--number{
+      font-size: 4rem;
+    }
+    &--text{
+      font-size: 2rem;
+    }
+
+  }
+
+}
